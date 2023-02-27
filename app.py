@@ -11,11 +11,11 @@ log = j.out()
 log.print('Iniciando...')
 
 ###
-ciclosAtras=os.environ['ciclosAtras']
+ciclosAtras=int(os.environ['ciclosAtras'])
 
 #
-group=os.environ['group']
-sampling=os.environ['sampling']
+group=int(os.environ['group'])
+sampling=int(os.environ['sampling'])
 
 serverMysql=os.environ['serverMysql']
 userMysql=os.environ['userMysql']
@@ -24,7 +24,7 @@ dbMysql=os.environ['dbMysql']
 
 serverInflux=os.environ['serverInflux']
 dbInflux=os.environ['dbInflux']
-portInflux=os.environ['portInflux']
+portInflux=int(os.environ['portInflux'])
 measurement=os.environ['measurement']
 
 #tabla='new_ims' #para pruebas
