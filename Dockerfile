@@ -15,4 +15,5 @@ RUN apt-get clean all
 
 WORKDIR /home
 ADD app.py /home/
+ADD insert_last24hrs.py /home/
 CMD /usr/bin/python3 /home/app.py
