@@ -105,7 +105,7 @@ while(continuar):
             print(e)
 
     tiempo=time.time() - threaded_start
-    if(tiempo<(every/2)):
-        dormir=(every/2)-tiempo
+    if(tiempo<60):
+        dormir=60-tiempo
         log.print(f'tiempo:{tiempo}; dormir:{dormir}')
         time.sleep(dormir)
