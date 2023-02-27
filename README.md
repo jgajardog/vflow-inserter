@@ -1,4 +1,10 @@
 # Graficas Internacionales
+
+## Disclaimer
+Netflow funciona en base a sampling, para que las graficas generen un resultado estimado lo mas cercano al trafico real 
+es necesario que todos los elementos de red estén configurados a 1 de cada 1500 paquetes.
+
+
 ## Inserter
 ### Code
 [[GitHub]](https://github.com/jgajardog/vflow-inserter.git)
